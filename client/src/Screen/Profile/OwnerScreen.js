@@ -48,11 +48,6 @@ export default function OwnerScreen({ navigation }) {
       title: "Admin Requests",
       screen: "AdminRequestPage",
     },
-    {
-      id: "UserInvitationPage",
-      title: "User Invitation",
-      screen: "AdminRequestPage",
-    },
     // Add more owner-specific tasks here if needed
   ];
 
@@ -85,8 +80,7 @@ export default function OwnerScreen({ navigation }) {
           <Image
             style={styles.image}
             source={{
-              uri:
-                "https://thumbs.dreamstime.com/b/logout-isolated-special-cyan-blue-round-button-abstract-illustration-logout-special-cyan-blue-round-button-103957079.jpg",
+              uri: "https://thumbs.dreamstime.com/b/logout-isolated-special-cyan-blue-round-button-abstract-illustration-logout-special-cyan-blue-round-button-103957079.jpg",
             }}
             resizeMode="cover"
           />
